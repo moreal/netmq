@@ -27,7 +27,7 @@ Here is a small example where the `RequestSocket` and `ResponseSocket`s are both
 
 Example:
 
-    :::csharp
+``` csharp
     using (var responseSocket = new ResponseSocket("@tcp://*:5555"))
     using (var requestSocket = new RequestSocket(">tcp://localhost:5555"))
     {
@@ -46,6 +46,7 @@ Example:
 
         Console.ReadLine();
     }
+```
 
 When you run this demo code you should see something like this:
 
